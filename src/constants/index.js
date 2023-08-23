@@ -21,9 +21,11 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
 } from "../assets";
+import blitz  from "../assets/blitz.png";
+import urban from "../assets/urban.png";
+import retroo from "../assets/retroo.png"
 
 export const navLinks = [
   {
@@ -45,10 +47,7 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+
   {
     title: "Backend Developer",
     icon: backend,
@@ -72,10 +71,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -96,10 +92,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
@@ -108,10 +101,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
@@ -198,12 +188,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Retroo Bookings",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a hotel reservation website along with hotel management tools, using MERN Stack",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -214,51 +204,55 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name:"prisma",
+        color:"yellow-text-gradient"
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: retroo,
+    source_code_link: "https://github.com/VoodooIsT/Retroo-Booking",
   },
   {
-    name: "Job IT",
+    name: "Urban Threads",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a marketplace for clothing brand that uses Next.js to show different categories and products along with pagination feature.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: urban,
+    source_code_link: "https://github.com/failure64/ecommerce",
   },
   {
-    name: "Trip Guide",
+    name: "Blitz Media",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Video Streaming Platform where you can search, categorize videos.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Rapid API",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image:blitz,
+    source_code_link: "https://github.com/VoodooIsT/youtube_clone",
   },
 ];
 
